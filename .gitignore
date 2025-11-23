@@ -1,10 +1,48 @@
 /.DS_Store
 # Flutter/Dart
 .dart_tool/
+# macOS
+.DS_Store
+
+# Flutter / Dart
+.dart_tool/
 build/
+**/build/
 /.packages
 .flutter-plugins
 .flutter-plugins-dependencies
 /.idea/
 /.vscode/
 pubspec.lock
+
+# Local Flutter SDK (don't include the SDK copy)
+flutter/
+
+# Android
+.gradle/
+/android/.gradle/
+**/android/.gradle/
+**/android/app/build/
+
+# iOS
+Pods/
+**/ios/Pods/
+**/ios/Flutter/Flutter.framework
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+
+# Generated files
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.package
+
+# VS Code
+.vscode/
+
+# Misc
+pubspec.lock
+.packages
+
